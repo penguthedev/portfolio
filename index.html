@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#070809" />
+    <meta
+      name="description"
+      content="Lin Khant — Computer Science student & creative developer crafting luxury digital experiences."
+    />
+    <title>Lin Khant — Creative Developer</title>
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Lin Khant — Creative Developer" />
+    <meta
+      property="og:description"
+      content="Computer Science student & creative developer crafting luxury digital experiences."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--
+      Trimmed from 9 weights to 5 (the unused ones were still being downloaded),
+      and loaded without blocking first paint: the browser fetches the
+      stylesheet as a low-priority resource, then applies it once ready.
+    -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Cinzel:wght@400;600&family=DM+Sans:wght@300;400&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Cinzel:wght@400;600&family=DM+Sans:wght@300;400&display=swap"
+      />
+    </noscript>
+
+    <!-- Paint the page background before any CSS arrives, so there is no white flash. -->
+    <style>
+      html { background: #070809; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="color: #f0ebe0; font-family: sans-serif; padding: 40px; text-align: center">
+        This portfolio needs JavaScript enabled. You can still reach Lin at
+        <a style="color: #e8c97e" href="mailto:linnkhant217@gmail.com">linnkhant217@gmail.com</a>.
+      </p>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

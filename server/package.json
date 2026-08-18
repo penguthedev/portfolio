@@ -1,0 +1,19 @@
+{
+  "name": "lk-portfolio-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Portfolio API — serves site content and proxies the assistant to the Claude API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.71.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
